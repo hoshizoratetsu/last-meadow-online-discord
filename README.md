@@ -57,9 +57,20 @@ python3 main.py
 4. **Automate**: In the resulting window, click the following buttons in order: `Dungeon` -> `Challenge` -> `Fight` -> `Continue`. Note that for the `Continue` button, you will need to click the area where it usually appears. It is recommended to complete one fight manually first to familiarize yourself with the button's exact coordinates.
 5. **Exit**: To stop the process, switch back to your terminal and use `CTRL+C` or your system's equivalent (such as `ALT+F4`).
 
-## Configuration
+## Permissions and System Control
 
-I optimized the project to be fast while maintaining autonomy. However, hardware performance varies. If the script fails due to UI lag, adjust the delay variables in the configuration section of `main.py` or the associated settings file to match your system's response time.
+### Screen Recording and Accessibility
+
+This script functions by simulating hardware inputs. Because of this, the following permissions are required:
+- Screen Recording: The application needs permission to capture the Discord window for image processing.
+- Accessibility: On macOS and certain Linux/Windows configurations, you must grant the terminal or IDE permission to control your computer to allow the script to move the cursor and perform clicks.
+
+### Hardware Interference
+
+Once the automation starts, the script takes control of your mouse and keyboard. To ensure the script functions correctly and to prevent unintended actions on your OS:
+- Do not move the mouse or type while the automation is active.
+- Keep the Discord window visible and unobstructed on the selected monitor.
+- Avoid background tasks that cause significant UI lag, as this can desync clicking.
 
 ## Disclaimer and Conduct
 
