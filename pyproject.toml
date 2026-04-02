@@ -1,0 +1,16 @@
+[project]
+name = "the-last-meadow-discord"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "keyboard>=0.13.5",
+    "numpy>=2.4.4",
+    "opencv-python>=4.13.0.92",
+    "pillow>=12.2.0",
+    "pyautogui>=0.9.54",
+    "pynput>=1.8.1",
+    "pyobjc>=12.1",
+    "pyobjc-core>=12.1",
+]
