@@ -49,6 +49,14 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+### Usage
+
+1. **Switch Focus**: You have **3 seconds** to switch to the monitor or workspace containing the Discord window. A screenshot will then be captured and opened in a new window.
+2. **Select Area**: Define the area of the Discord application by clicking and dragging a rectangle. Press `c` to cancel and start over, or click anywhere else to reset the selection.
+3. **Confirm**: Press **Enter** to confirm your selection.
+4. **Automate**: In the resulting window, click the following buttons in order: `Dungeon` -> `Challenge` -> `Fight` -> `Continue`. Note that for the `Continue` button, you will need to click the area where it usually appears. It is recommended to complete one fight manually first to familiarize yourself with the button's exact coordinates.
+5. **Exit**: To stop the process, switch back to your terminal and use `CTRL+C` or your system's equivalent (such as `ALT+F4`).
+
 ## Configuration
 
 I optimized the project to be fast while maintaining autonomy. However, hardware performance varies. If the script fails due to UI lag, adjust the delay variables in the configuration section of `main.py` or the associated settings file to match your system's response time.
